@@ -7,10 +7,18 @@ print(x)
 y = "11-4"
 print(y)
 
+"""
 c = "x = "
 # Alternatīva: c += x
-c = c + str(x) + " " + str(5) + "asdas" + y
-print(c)
+y = c + str(x) + " " + str(5) + "asdas" + y
+print(y) # print(y)
+z = f"{c}{x}  5asdas{y}"
+print(z)
+"""
+
+print("""rinda 1
+rinda 2
+      rinda3""")
 
 #print(f"{x}")
 
