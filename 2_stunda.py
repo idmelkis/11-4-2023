@@ -41,10 +41,11 @@ x = True
 #if x == True:
 if not x:
     print("Patiess")
+#elif
 else:
     print("Nepatiess")
 
 # Kalkulators
-# Ievade: divi (vai vairāk*) skaitļi (ar input)
+# Ievade: divi (vai vairāk) skaitļi (ar input)
 # Ievade: Darbība (Saskaitīt, atņemt, dalīt, reizināt...)
 # Izvade: Darbības rezultāts
