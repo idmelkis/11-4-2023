@@ -1,22 +1,22 @@
-# saraksts = [12,34,654] # === masīvs
-# print(saraksts[0])
-# saraksts.append("123")
+saraksts = [12,34,654] # === masīvs
+print(saraksts[0])
+saraksts.append("123")
 
-# vardnica = {
-#     "atslēga": ["vērtība"],
-# #   atslēga = ["vērtība"]
-#     "word": " A sound or a combination of sounds, or its representation in writing or printing, that symbolizes and communicates a meaning and may consist of a single morpheme or of a combination of morphemes.",
-#     123: 423,
-#     True: False,
-#     4123: "3123",
-#     "231": 323
-# } # === kartēm (map)
-# #print(vardnica)
-# #print(vardnica["word"])
-# vardnica["vērtība"] = "312"
-# print(vardnica["vērtība"])
-# vardnica.update({"atslēga2": "vērtība", 766: 111})
-# print(vardnica[766])
+vardnica = {
+    "atslēga": ["vērtība"],
+#   atslēga = ["vērtība"]
+    "word": " A sound or a combination of sounds, or its representation in writing or printing, that symbolizes and communicates a meaning and may consist of a single morpheme or of a combination of morphemes.",
+    123: 423,
+    True: False, # Neiesaku lietot - .keys() un .items() funckija neredzēs.
+    4123: "3123",
+    "231": 323
+} # === kartēm (map)
+#print(vardnica)
+#print(vardnica["word"])
+vardnica["vērtība"] = "312"
+print(vardnica["vērtība"])
+vardnica.update({"atslēga2": "vērtība", 766: 111})
+print(vardnica[766])
 
 # Uzdevums: Lietotājs ievada skaitli n, un programma izveido vārdnīcu kura satur
 # atslēgas no 1 līdz n, ar vērtībām n^2
@@ -30,29 +30,29 @@
 #vardnica[1] = 1
 #vardnica[2] = 4
 # ...
-#vardnica = {}
-#inp = int(input("Ievadat skaitli"))
-# n=1
+vardnica = {}
+inp = int(input("Ievadat skaitli"))
+n=1
 # while n <= inp:
 #     vardnica[n] = n*n # == n**2
 #     #vardnica.update({n: n*n})
 #     n += 1
-# for n in range(1, inp+1):
-#     vardnica[n] = n*n # == n**2
-# print(vardnica)
+for n in range(1, inp+1):
+    vardnica[n] = n*n # == n**2
+print(vardnica)
 
-# vardnica = {
-#     1: 2,
-#     "key": "value",
-#     # True: False,
-#     "something": "something"
-# }
-# for i in vardnica.keys():
-#     print(i)
-# for i in vardnica.values():
-#     print(i)
-# for i,j in vardnica.items():
-#     print(f"atslēga: {i}, vērtība: {j}")
+vardnica = {
+    1: 2,
+    "key": "value",
+    # True: False,
+    "something": "something"
+}
+for i in vardnica.keys():
+    print(i)
+for i in vardnica.values():
+    print(i)
+for i,j in vardnica.items():
+    print(f"atslēga: {i}, vērtība: {j}")
 
 # Uzrakstīt programmu, kas ar ciklu (!neizmantot .replace un līdzīgas palīgfunkc.!)
 # Samaina vārda garos patskaņus (ā,ū,ē,ī) uz to īsajiem variantiem (a,u,e,i)
