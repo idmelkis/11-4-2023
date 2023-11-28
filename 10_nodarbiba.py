@@ -52,8 +52,10 @@ print(dict(zip(keys, values)))
 # mainīgā "vardnica", kur vērtības ir > 500
 # Piemērs, ja vardnica = {0: 713, 1: 175, 2: 829, 3: 742, 4: 185 }
 # tad vardnica2 = { 0: 713, 2: 829, 3: 742 }
+# (vērtības atslēgām 1 un 4 ir < 500, tādēļ tās netiek pievienotas)
 import random
 vardnica = {}
 for i in range(0, 100):
     vardnica[i] = random.randint(0, 1000)
 print(vardnica)
+# ...
