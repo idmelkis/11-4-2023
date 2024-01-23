@@ -10,3 +10,22 @@ Precēm var izveidot klasi "Prece".
 cenu (Abas vērtības uzstāda init funkcijā)
 
 vai izmantot vārdnīcu.
+
+2. 
+Izveidojat klasi "Darbinieks". Šī klase satur informāciju par vārdu, uzvārdu, 
+stāžu (mēnesī), algu, un amatu.
+Jānodefinē funkcija 'aprēķiniBonusu', ka izvada 0, un 'aprēķiniKopAlgu', 
+kas izvada algas un stāža reizinājumu + bonuss.
+Lai aprēķinātu bonusu, izveidojat apakšklases sekojošajiem darbinieku amatiem - 
+ - Menedžeris. Apakšklasei jāizseko tam cik daudz darbinieki ir zem šī menedžera. 
+   Bonuss ir darbinieku skaits * 100.
+ - Programmētājs. Apakšklasei jāizseko projekta nosaukums (str), 
+   kuram darbinieks ir piesaistīts. Bonuss ir 10% no algas.
+ - Testētājs. Apakšklasei jāizseko projekta nosaukums,
+   kuram darbinieks ir piesaistīts, 
+   kā arī nostrādātais stundu skaits mēneša laikā šajā gadā. 
+   aprēķiniKopAlgu funkcija izvada nostrādāto stundu skaitu * 7. 
+   Bonuss - 5% no aprēķinātās algas.
+
+Izprintējot klasi, jāizvada Darbinieka informācija - 
+ vārds, uzvārds un alga ieskaitot bonusus. Darbiniekus varat izdomāt paši.

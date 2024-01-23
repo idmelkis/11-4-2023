@@ -67,12 +67,12 @@ print(krajkonts)
 class Prece():
     nosaukums :str = ""
     cena :float = ""
-    def __init__(self, _nos, _cena) -> None:
-        self.nosaukums = _nos
+    def __init__(self, _nosaukums, _cena) -> None:
+        self.nosaukums = _nosaukums
         self.cena = _cena
 # Izveidojat klasi "Grozs". Šī klase satur preces un to daudzumu.
 # Klasei jānodrošina funkcijas, kas ļauj
-#   pievienot preces, izņemt preces un 
+#   pievienot preces, izņemt preces un
 #   aprēķināt groza kopējo vērtību.
 class Grozs():
     preces :'dict[Prece, int]' = {} # value = daudzums
