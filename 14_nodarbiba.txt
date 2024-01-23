@@ -1,0 +1,12 @@
+1.
+Izveidojat klasi "Grozs". 
+Šī klase satur preces un to daudzumu.
+Klasei jānodrošina funkcijas, kas ļauj
+  pievienot preces, izņemt preces un 
+  aprēķināt groza kopējo vērtību.
+
+Precēm var izveidot klasi "Prece".
+Šī klase satur preces nosaukumu un 
+cenu (Abas vērtības uzstāda init funkcijā)
+
+vai izmantot vārdnīcu.
