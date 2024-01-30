@@ -26,6 +26,5 @@ Lai aprēķinātu bonusu, izveidojat apakšklases sekojošajiem darbinieku amati
    kā arī nostrādātais stundu skaits mēneša laikā šajā gadā. 
    aprēķiniKopAlgu funkcija izvada nostrādāto stundu skaitu * 7. 
    Bonuss - 5% no aprēķinātās algas.
-
 Izprintējot klasi, jāizvada Darbinieka informācija - 
  vārds, uzvārds un alga ieskaitot bonusus. Darbiniekus varat izdomāt paši.
