@@ -6,9 +6,13 @@
 #     print("Eksistē")
 # else:
 #     print("Neeksistē")
-
 import os
 path = os.path.dirname(__file__)
+# import sys
+# print(sys.argv[0])
+# print(sys.argv[1])
+# print(sys.argv[2])
+
 # ./ - Pašreizējā mape
 # .. - Iepriekšējā mape
 # ../.. - Divas mapes augstāk == ..\\..
@@ -37,11 +41,34 @@ path = os.path.dirname(__file__)
     #f.seek(0,0)
     #f.writelines(["asd", "asd"])
 
-with open("fails.txt", 'r') as f:
-    for line in f:
-        print(line.strip())
+# with open("fails.txt", 'r') as f:
+#     for line in f:
+#         darbiba = line.strip()
+#         #for letter in darbiba:
+#         #...
+#         darbiba = darbiba.split(" ")
+#         if darbiba[1] == "*":
+#             rez = int(darbiba[0]) * int(darbiba[2])
+#             print(rez)
 
 # Uzdevums
 # Atvērt failu fails.txt
+# faila saturs
+# 10 * 8
+# 10 / 2
+# 4 - 3
 # Veikt katrā rindā attēlotu darbību
 # Izvadīt darbības rezultātu
+
+import csv
+# with open("fails.txt", 'r') as f:
+#     csv_read = csv.reader(f, delimiter=" ")
+#     next(csv_read)
+#     for line in csv_read:
+#         print(line)
+with open("fails.txt", 'w') as f:
+    #print(end="\n")
+    writer = csv.writer(f, delimiter=",", lineterminator="\n")
+    writer.writerow(["col1","col2"])
+    writer.writerow(["val1","val2"])
+    writer.writerow(["val3","val4"])
