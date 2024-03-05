@@ -4,17 +4,19 @@
 Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.io](https://app.diagrams.net/) vietni un atverat tos tur.
 
 # Nodarbības
-
+## 1. Semestris: 
 ## 1. Ievade, izvade
 ## 2. Saraksti
 ## 3. Cikli
 ## 4. Funkcijas
 ## 5. Funkcijas, blokshēmas
 ## 6. Gatavošanās KD
-## 7. Kontroldarbs
+## 7. Kontroldarbs [ Python pamati / 10kl atkārtojums ]
 ## 8. Trenēšanās uzd.
-## 9.,10.,11. Vārdnīcas, JSON
-## 12.,13.,14.,15. Klases
-## 16. Kontroldarbs
+## 9., 10., 11. Vārdnīcas, JSON
+## 12. Kontroldarbs [ Vārdnīcas ]
+## 2. Semestris
+## 13., 14., 15. Klases
+## 16. Kontroldarbs [ Klases ]
 ## 17. Kļūdu apstrāde
-## 18. Faili
+## 18., 19. Faili

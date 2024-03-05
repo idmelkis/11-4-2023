@@ -1,0 +1,38 @@
+1. Uzdevums
+
+Izveidojat mapi "faili". 
+Izveidojat mapē failus ar nosaukumiem no 0 līdz 100. 
+Katrā failā noglabājat gadījumskaitli.
+Prasat lietotājam atvērt kādu no šiem failiem, un ievadīt vērtību, kas ir failā. 
+Atkarībā no tā vai ievadīts pareizi, izvadīt "pareizi", vai "nepareizi".
+Kad programma beidz darbu, izdzēšat šo mapi.
+
+2. Uzdevums
+
+Izveidot failu ar saturu no https://www.lipsum.com/.
+Uzrakstat programmu, kas atver failu, un izvada vārdu skaitu failā.
+
+3. Uzdevums
+Izveidot failu ar saturu no https://www.lipsum.com/.
+Izveidot programmu, kas
+* atver šo failu
+* izveido failu ar to pašu nosaukumu + "_uppercase"
+  (piem. fails.txt -> fails_uppercase.txt). 
+  Ja fails jau eksistē izvadat kļūdu.
+* otrajā failā saglabājat pirmā faila saturu pārveidojot visus burtus par lielajiem.
+  (.upper())
+
+4. Uzdevums (i/ni)
+Dots fails 'cilvēki':
+http://s.ayy.lv/0503
+
+Sadalīts ar: \t
+Pie open, norādat parametru: encoding="utf-8"
+
+Izveidojat programmu kas nolasa šo failu, 
+un izvada datus sekojošā formātā:
+
+Vārds: <vārds>
+Uzvārds: <uzvārds>
+Vecums: <vecums>
+<jauna rinda>
