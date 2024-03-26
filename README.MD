@@ -19,5 +19,5 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 13., 14., 15. Klases
 ## 16. Kontroldarbs [ Klases ]
 ## 17. Kļūdu apstrāde
-## 18., 19. Faili
-## 20. Datu bāzes
+## 18., 19., 20. Faili
+## 21. Datu bāzes
