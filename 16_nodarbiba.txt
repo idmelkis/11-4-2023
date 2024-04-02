@@ -1,3 +1,59 @@
-Kontroldarba nosacījumi ir pieejami šeit: http://s.ayy.lv/0602
-Iesniegt e-klasē. 
-Kad tiks izliktas atzīmes, šeit pēc laika (2ned) parādīsies KD uzdevumi.
+KD3 Uzdevumi: 
+
+Kontroldarbs programmēšanā: Klases
+
+Darbs 2 mācību stundām. Katrs uzdevums ir vērts 4.5 punktus (4p par kodu, 0.5p par grafiku). Lai iegūtu 10 balles, vajag izpildīt visus uzdevumus UN izveidot vismaz 2 klašu grafikus. Bez grafikiem, max atzīme ir 9. Protams, ja neuzticaties savam kodam varat zīmēt grafikus lai potenciāli paceltu atzīmi.
+Grafikiem piemērs ir pieejams github: https://github.com/idmelkis/11-1-2023/blob/main/13_nodarbiba.drawio
+Lūdzu savelkat visas klases (ja ir mantošana, vai ir klases kā mainīgie iekš citas klases).
+
+1. Uzdevums - Mājasdarbs
+Piezīme - Šis uzdevums bija uzdots mājās. Lūdzu pievēršat uzmanību pēdējam teikumam, kurš nosacījumos pirms tam nebija (izveidojat objektus ar fiktīviem datiem). Ja esat izpildījuši mājās, lūdzu neaizmirstat iesniegt šo uzdevumu.
+
+Nosacījumi:
+Izveidojat klasi "Darbinieks". Šī klase satur informāciju par vārdu, uzvārdu, algu, un titulu. Jānodefinē funkcija 'aprēķiniBonusu', ka izvada 0, un 'aprēķiniKopAlgu', kas izvada algas mainīgā vērtību.
+Izveidojat apakšklases sekojošajiem darbinieku amatiem - 
+ - Menedžeris. Apakšklasei jāizseko tam cik daudz darbinieki ir zem šī menedžera. Bonuss ir darbinieku skaits * 100.
+ - Programmētājs. Apakšklasei jāizseko projekta nosaukums, kuram darbinieks ir piesaistīts. Bonuss ir 10% no algas.
+ - Testētājs. Apakšklasei jāizseko projekta nosaukums, kuram darbinieks ir piesaistīts, kā arī nostrādātais stundu skaits mēneša laikā šajā gadā. aprēķiniKopAlgu funkcija izvada nostrādāto stundu skaitu * 7. Bonuss - 5% no aprēķinātās algas.
+Izvadīt datus fiktīviem lietotājiem (var izmantot datus no klasē izstrādātā 2. uzdevuma).
+
+2. Uzdevums - Klases
+
+Izveidojat klasi Noliktava. Šai klasei vajag saturēt informāciju par 
+* pieejamajiem precēm un to cenu. Šo punktu var realizēt kā vārdnīcu ({nosaukums: cena}) vai klasi (brīva izvēle).
+Izveidojat funkcijas, kas 
+* Ļauj pievienot preces noliktavā
+* Ļauj atjaunot eksistējošu preci noliktavā
+* Izvada visu noliktavā esošo preču sarakstu
+* Izvada visu noliktavā esošo preču vērtību.
+
+3. Uzdevums - Klases
+
+Ir doti sekojoši dati
+(Gēns)
+Simbols 	Nosaukums 					Suga
+ACAA1		acetyl-CoA acyltransferase 1			Homo Sapiens
+APAF1		apoptotic peptidase activating factor 1		Homo Sapiens
+spidey		spidey						Drosophila melanogaster
+Amacr		Alpha-methylacyl-CoA racemase			Drosophila melanogaster
+Spt-I		Serine palmitoyltransferase subunit I		Drosophila melanogaster
+
+(Gēnu tīkls)
+Identifikators  Nosaukums					Gēni			Suga
+R-HSA-168256	Immune System					ACAA1, APAF1		Homo Sapiens
+R-DME-556833	Metabolism of lipids				spidey,	Amacr, Spt-I	Drosophila melanogaster
+
+3.1. Izveidojat klases gēniem, un gēnu tīkliem
+3.2. Izveidojat funkciju, kas ļauj pievienot tīklam gēnus. Šai funkcijai ir jāpārbauda, vai pievienojamais gēns atbilst tīka sugai.
+3.3. Izveidojat objektus, kas satur tabulā esošo informāciju
+3.4. Izveidojat funkciju gēnu tīklam, kas izvada visu informāciju par tīklā esošajiem gēniem
+3.4.1. Izsaucat šo funkciju tīklam "R-DME-556833".
+
+4. Uzdevums - Mantošana
+
+Izveidojat klasi "Fails". ŠĪ klase satur informāciju par faila nosaukumu un izmēru. Izmēra izvadi var realizēt kā funkciju (piem. getSize(self, ...)), vai kā lambda funkciju (mēs šo neesam izskatījuši, bet ja zinat kas tas ir, droši varat pielietot).
+Izveidojat apakšklases -
+  -- Prezentācija. Šī klase satur informāciju par slaidiem. Prezentācijā var būt vairāki slaidi. Lai vienkāršotu, pieņemam, ka katrs slaids ir attēls. Visiem attēliem prezentācijā ir vienāds - attēla platums, augstums.  Izmērs bitos tiek aprēķināts sareizinot slaidu skaitu, attēla platumu un augstumu un skaitli 24 (bitu skaits katra pikseļa krāsām).
+  -- Audio. Šī klase satur informāciju par dziesmas nosaukumu, izpildītāju, bitu pārraides ātrumu (bitrate), izlases ātrums (sample rate), ilgumu. Izmērs tiek iegūts sareizinot ilgumu ar bitu pārraides ātrumu un izlases ātrumu un izdalot iegūto skaitli ar 1.5 (kompresijas ratio).
+  -- Dokuments. Šī klase satur informāciju par vārdu skaitu dokumentā. Faila izmērs bitos tiek aprēķināts sareizinot to ar 16.
+Izveidojat šīm apakšklasēm funkcijas, kas izvada informāciju par šo klasei (izmērs, faila nosaukums, un ja ir - papildus informācija). Faila izmēru izvadīt kilobaitos (pieņemot, ka 1Kb = 1024b). Izveidojat objektu katram failu tipam un izvadat izmēru. Dati var būt fiktīvi.
