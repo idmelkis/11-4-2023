@@ -23,6 +23,8 @@ cur.execute("CREATE TABLE IF NOT EXISTS test (\
 # cur.execute("SELECT textvalue FROM test WHERE value = 5")
 # results = cur.fetchall()
 # print(results)
+# Atrod visus rezultātus, kas sākas ar "Šī"
+# Ja gribētu atrast kaut ko kas beidzas ar burtiem ts, tad būtu LIKE "%ts"
 # cur.execute("SELECT value FROM test WHERE textValue LIKE \"Šī%\"")
 # results = cur.fetchall()
 # print(results)
