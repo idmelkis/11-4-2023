@@ -46,8 +46,8 @@ cur.execute("CREATE TABLE IF NOT EXISTS test (\
 # results = cur.fetchall()
 # print(results)
 
-# Funkcijas kolona
-# cur.execute("SELECT min(value) FROM test") # count, max, min
+# Agregātfunkcijas (piem. count, max, min) kolona
+# cur.execute("SELECT id, min(value) FROM test")
 # results = cur.fetchall()
 # print(results)
 
