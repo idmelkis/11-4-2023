@@ -19,6 +19,9 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 13., 14., 15. Klases
 ## 16. Kontroldarbs [ Klases ]
 ## 17. Kļūdu apstrāde
-## 18., 19., 20. Faili
+## 18., 19., 20. Faili (I/O)
 ## 21., 22., 23., 24. Datu bāzes
-## 25. Kontroldarbs [ IO / Datu bāzes ]
+## 25. Faili & datu bāzes - gatavošanās KD
+## 26. Kontroldarbs [ I/O & Datu bāzes ]
+
+## Mācību gada beigas!
